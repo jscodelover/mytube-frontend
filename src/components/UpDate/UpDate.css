@@ -1,0 +1,43 @@
+
+.box{
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.vdetail{
+  width: 40%;
+  background: #FFF;
+  padding: 7px;
+  margin: 10px;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+
+.heading{
+	color : #079abf;
+	font-size: 16px;
+}
+
+.submit{
+  background: #ccc;
+  padding: 10px;
+  color : #bd3030;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  color :black;
+  background-color : #33eaa8;
+}
+
+@media (max-width: 400px){
+	.vdetail{
+		width: 70%;
+	}
+}

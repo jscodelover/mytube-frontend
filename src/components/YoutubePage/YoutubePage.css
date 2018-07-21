@@ -1,0 +1,45 @@
+.optionDiv {
+	display :flex;
+	flex-flow: row;
+	height: 100%;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.card {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	border : 2px solid;
+	box-shadow:  9px 4px 0 2px #ccc;
+}
+
+.myactive{
+	padding: 10px;
+	text-decoration: none;
+	color : #bd3030;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.myactive:hover, .myactive:active{
+	color: #18ca98;
+	font-weight: bold;
+}
+
+
+@media (max-width: 450px){
+	img {
+		flex-flow: column;
+	}
+	.card{
+		margin: 10px;
+	}
+}

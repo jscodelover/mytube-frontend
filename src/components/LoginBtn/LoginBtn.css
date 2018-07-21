@@ -1,0 +1,21 @@
+.loginLink {
+	text-decoration: none;
+	color : #bd3030;
+	border : 2px solid #ccc;
+	padding: 10px;
+	box-shadow: 1px 1px 0 2px #ccc;
+}
+
+.intro{
+	font-size: 20px;
+	width: 100%;
+	height: 100%;
+	margin: 15px;
+}
+
+
+.loginLink:hover, .loginLink:active {
+	color :black;
+	padding: 13px;
+	background-color : #33eaa8;
+}
