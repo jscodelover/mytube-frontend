@@ -5,4 +5,5 @@
 - Reactjs
 - React-Router-dom
 - Axios
+- Redux
 
